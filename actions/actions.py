@@ -15,9 +15,9 @@ class ActionHelloWorld(Action):
 
         prompt=next(tracker.get_latest_entity_values('service based company'),None)
         if prompt:
-            dispatcher.utter_message(text="1.Registration\n"
-                                          "2.Resume Shortlisting(It can be done on any based mentioned in the resume)\n"
-                                          "3.Online Assessment\n"
+            dispatcher.utter_message(text="<strong>1.Registration</strong><br>\n"
+                                          "2.Resume Shortlisting(It can be done on any based mentioned in the resume)<br>\n"
+                                          "3.Online Assessment<br>\n"
                                           "\tThis test includes:\n"
                                           "\t\tApti Test:\n"
                                           "\t\t\tQuants\n"

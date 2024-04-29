@@ -150,6 +150,87 @@ nlu:
 - intent: excelsubtot
   examples: |
     - how to calculate the sum of the values in the given range
+- intent: first_year
+  examples: |
+    - can you guide me for first year to learn coding?
+    - Can you provide me with guidance on how to start learning coding in my first year?
+    - I'm a beginner in coding; can you direct me on what to focus on in my first year of learning?
+    - How should I structure my learning path for coding as a first-year student?
+    - Can you assist me in figuring out how to begin my coding journey in my initial year?
+
+- intent: second_year_btech
+  examples: |
+   - what should I learn in 2nd year of btech?
+   - What subjects should I focus on during my second year of BTech studies?
+   - What are the key topics to cover in my second year of BTech?
+   - In the second year of my BTech, what subjects should I prioritize learning?
+   - What knowledge and skills are essential for me to acquire during my second year pursuing BTech?
+
+- intent: third_year_btech
+  examples: |
+   - What academic endeavors are recommended for third-year BTech students?
+   - What specific academic goals should I set for myself in my third year of BTech?
+   - What are the key academic milestones I should aim to achieve during my third year of BTech?
+   - what things should I do as 3rd year Btech student?
+- intent: fourth_year_btech
+  examples: |
+   - What should I do in my fourth year of BTech studies?
+   - What actions should I take during my fourth year of BTech studies?
+   - What are the recommended steps for me to take during my fourth year of BTech studies?
+   - What should be my academic priorities during my fourth year of BTech studies?
+
+- intent: guidence_computer_science
+  examples: |
+   - What steps should I take to complete my B.Tech in Computer Science?
+   - What actions should I prioritize to successfully finish my B.Tech in Computer Science?
+   - can you provide comple roadmap for btech student in computer science
+   - can you provide complete guidence for btech student in computer science
+- intent: interview_guidence
+  examples: |
+   - How can I prepare effectively for  interviews?
+   - Can you provide tips for confidently answering behavioral interview questions during job interviews?
+   - can you provide guidence for cracking any interview?
+- intent: softskills_development
+  examples: |
+   - can you suggest soft skills that are required for every software engineer?
+   - Can you provide insights into the importance of soft skills for software engineers, and how they can be developed and refined?
+- intent: free_coding_platforms
+  examples: |
+   - can you suggest some free coding platforms?
+   - which platforms are free to use to pratice coding?
+   - What are the best free online coding platforms for practicing data structures and algorithms?
+   - Can you recommend coding platforms that offer exercises for beginners?
+- intent: DSA_guidence
+  examples: |
+   - What are some effective learning resources for beginners to start learning Data Structures and Algorithms?
+   - Can you recommend beginner-friendly programming languages and IDEs for practicing DSA concepts?
+   - can you provide complete roadmap to learn DSA for beginners?
+
+- intent: Higher_education
+  examples: |
+   - what are the higher education options after btech?
+   - What are some examples of postgraduate pathways that BTech holders commonly pursue?
+- intent: Mtech
+  examples: |
+   - mtech guidence?
+   - mtech roadmap?
+   - What steps are involved in the roadmap for completing an M.Tech program?
+   - Could you provide a breakdown of the path one usually takes when pursuing an M.Tech after completing a BTech degree?
+   - Can you outline the typical journey for pursuing an M.Tech degree?
+- intent: MBA
+  examples: |
+   - What steps should one take to navigate the process of pursuing a MBA following a BTech program?
+   - Can you outline a roadmap for pursuing a MBA  after completing a BTech?
+   - Could you provide a structured plan for BTech graduates interested in pursuing further studies at the MBA?
+- intent: frontend_guidence
+  examples: |
+   - can you provide Front-End development roadmap for begineers?
+   - Can you outline the key steps or milestones for becoming proficient in front-end development?
+   - What are the essential skills and technologies one should focus on to pursue a career in front-end development?
+  
+
+
+
 - intent: servicecrack
   examples: | 
     - how to crack [service based company](service based company)

@@ -66,6 +66,67 @@ stories:
   - action: utter_excelproper
   - intent: excelsubtot
   - action: utter_excelsubtot
+- story: guidence to firstyear
+  steps:
+  - intent: first_year
+  - action: utter_first_year
+
+- story: guidence to secondyear
+  steps:
+   - intent: second_year_btech
+   - action: utter_second_year_btech
+
+- story: guidence to thirdyear
+  steps:
+   - intent: third_year_btech
+   - action: utter_third_year_btech
+
+- story: guidence to fourthyear
+  steps:
+   - intent: fourth_year_btech
+   - action: utter_fourth_year_btech
+
+- story: guidence for btech
+  steps:
+   - intent: guidence_computer_science
+   - action: utter_first_year
+   - action: utter_second_year_btech
+   - action: utter_third_year_btech
+   - action: utter_fourth_year_btech
+
+- story: interview guidence
+  steps:
+   - intent: interview_guidence
+   - action: utter_interview_guidence
+- story: softskills_development
+  steps:
+   - intent: softskills_development
+   - action: utter_softskills_development
+- story: free coding platforms
+  steps:
+   - intent: free_coding_platforms
+   - action: utter_free_coding_platforms
+- story:
+  steps:
+   - intent: DSA_guidence
+   - action: utter_DSA_guidence
+- story: Guidence_higher_education
+  steps:
+   - intent: Higher_education
+   - action: utter_higher_education
+- story: guidence_Mtech
+  steps:
+   - intent: Mtech
+   - action: utter_Mtech
+- story: guidence_MBA
+  steps:
+   - intent: MBA
+   - action: utter_MBA
+- story: Frontend_guidence
+  steps:
+   - intent: frontend_guidence
+   - action: utter_frontend_guidence
+
 
 - story: roadmap_for_servicebc
   steps:
