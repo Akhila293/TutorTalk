@@ -72,291 +72,300 @@ responses:
 
   utter_excelavg:
     - text: "
-        AVERAGE formula:
-        Example: =AVERAGE(B1:B10)
-        This formula calculates the average of the values in cells B1 to B10."
+        <br>AVERAGE formula:</br>
+        <br>Example: =AVERAGE(B1:B10)</br>
+        <br>This formula calculates the average of the values in cells B1 to B10.</br>"
 
   utter_excelmax:
     - text: "
-        MAX formula:
-        Example: =MAX(D1:D6)
-        This formula finds the maximum value in the range D1 to D6."
+        <br>MAX formula:</br>
+        <br>Example: =MAX(D1:D6)</br>
+        <br>This formula finds the maximum value in the range D1 to D6.</br>"
 
   utter_excelmin:
     - text: "
-        MIN formula:
-        Example: =MIN(E1:E4)
-        This formula finds the minimum value in the range E1 to E4."
+        <br>MIN formula:</br>
+        <br>Example: =MIN(E1:E4)</br>
+        <br>This formula finds the minimum value in the range E1 to E4.</br>"
 
   utter_exceltoday:
     - text: "
-        TODAY formula:
-        Example: =TODAY()
-        This formula returns the current date."
+        <br>TODAY formula:</br>
+        <br>Example: =TODAY()</br>
+        <br>This formula returns the current date.</br>"
 
   utter_excelif:
     - text: "
-        IF formula:
-        Example: =IF(F1>10, \"Pass\", \"Fail\")
-        This formula checks if the value in cell F1 is greater than 10. If it is, it returns \"Pass\"; otherwise, it returns \"Fail\"."
+        <br>IF formula:</br>
+        <br>Example: =IF(F1>10, \"Pass\", \"Fail\")</br>
+        <br>This formula checks if the value in cell F1 is greater than 10. If it is, it returns \"Pass\"; otherwise, it returns \"Fail\".</br>"
 
   utter_excelconc:
     - text: "
-        CONCATENATE formula:
-        Example: =CONCATENATE(\"Hello\", \"World\")
-        This formula combines the text \"Hello\" and \"World\" to create the string \"Hello World\"."
+        <br>CONCATENATE formula:</br>
+        <br>Example: =CONCATENATE(\"Hello\", \"World\")</br>
+        <br>This formula combines the text \"Hello\" and \"World\" to create the string \"Hello World\".</br>"
 
   utter_excellen:
     - text: "
-        LEN formula:
-        Example: =LEN(H1)
-        This formula calculates the number of characters in the text contained in cell H1."
+        <br>LEN formula:</br>
+        <br>Example: =LEN(H1)</br>
+        <br>This formula calculates the number of characters in the text contained in cell H1.</br>"
 
   utter_exceltrim:
     - text: "
-        TRIM formula:
-        Example: =TRIM(I1)
-        This formula removes excess spaces from the text in cell I1."
+        <br>TRIM formula:</br>
+        <br>Example: =TRIM(I1)</br>
+        <br>This formula removes excess spaces from the text in cell I1.</br>"
 
   utter_excellefttext:
     - text: "
-        LEFT formula:
-        Example: =LEFT(J1, 5)
-        This formula extracts the leftmost 5 characters from the text in cell J1."
+        <br>LEFT formula:</br>
+        <br>Example: =LEFT(J1, 5)</br>
+        <br>This formula extracts the leftmost 5 characters from the text in cell J1.</br>"
 
   utter_excelrighttext:
     - text: "
-        RIGHT formula:
-        Example: =RIGHT(K1, 5)
-        This formula extracts the rightmost 5 characters from the text in cell K1."
+        <br>RIGHT formula:</br>
+        <br>Example: =RIGHT(K1, 5)</br>
+        <br>This formula extracts the rightmost 5 characters from the text in cell K1.</br>"
 
   utter_excelmidextr:
     - text: "
-        MID formula:
-        Example: =MID(L1, 3, 5)
-        This formula extracts 5 characters starting from the 3rd character of the text in cell L1."
+        <br>MID formula:</br>
+       <br> Example: =MID(L1, 3, 5)</br>
+        <br>This formula extracts 5 characters starting from the 3rd character of the text in cell L1.</br>"
 
   utter_excelupper:
     - text: "
-        UPPER formula:
-        Example: =UPPER(M1)
-        This formula converts the text in cell M1 to uppercase."
+        <br>UPPER formula:</br>
+        <br>Example: =UPPER(M1)</br>
+        <br>This formula converts the text in cell M1 to uppercase.</br>"
 
   utter_excellower:
     - text: "
-        LOWER formula:
-        Example: =LOWER(N1)
-        This formula converts the text in cell N1 to lowercase."
+        <br>LOWER formula:</br>
+        <br>Example: =LOWER(N1)</br>
+        <br>This formula converts the text in cell N1 to lowercase.</br>"
 
   utter_excelproper:
     - text: "
-        <br>PROPER formula:
-        <br>Example: =PROPER(O1)
-        <br>This formula capitalizes the first letter of each word in the text in cell O1."
+        <br>PROPER formula:</br>
+        <br>Example: =PROPER(O1)</br>
+        <br>This formula capitalizes the first letter of each word in the text in cell O1.</br>"
 
   utter_excelsubtot:
     - text: "
-        SUBTOTAL formula:
-        Example: =SUBTOTAL(1, AQ1:AQ10)
-        This formula calculates the sum of the visible cells in the range AQ1 to AQ10, ignoring any hidden rows."
+        <br>SUBTOTAL formula:</br>
+        <br>Example: =SUBTOTAL(1, AQ1:AQ10)</br>
+        <br>This formula calculates the sum of the visible cells in the range AQ1 to AQ10, ignoring any hidden rows.</br>"
   utter_first_year:
     - text: |
-        <br>1. Choose Your Programming Language:
-           - Start by selecting a programming language like C, C++, or Java.
-           - Allocate 1-2 hours per day for learning programming.
-        <br>2. Set Up Your Laptop
-        3. Install Necessary Software:
-           - Use IntelliJ IDEA or VSCode for coding.
-           - Create accounts on platforms like GeeksforGeeks, LinkedIn, GitHub, LeetCode, CodeChef, and Codeforces.
-        4. Maintaining Good CGPA:
-           - Focus on maintaining a good CGPA and understand the placement trends of your college.
-           - Connect with seniors for guidance.
-        5. Second Semester:
-           - Dive into Data Structures:
-           - Learn about the basics of OOP and DSA concepts.
-           - Data structures are crucial for job interviews, especially if you’re aiming for product companies.
-        Remember, consistency, discipline, and dedication are key. Explore opportunities and keep learning! 🚀👩‍💻
-        YouTube Links:
+        <br>1. Choose Your Programming Language:</br>
+           <br> Start by selecting a programming language like C, C++, or Java.</br>
+           <br>Allocate 1-2 hours per day for learning programming.</br>
+        <br>2. Set Up Your Laptop</br>
+        <br>3. Install Necessary Software:</br>
+           <br>- Use IntelliJ IDEA or VSCode for coding.</br>
+           <br>- Create accounts on platforms like GeeksforGeeks, LinkedIn, GitHub, LeetCode, CodeChef, and Codeforces.</br>
+        <br>4. Maintaining Good CGPA:</br>
+          <br> - Focus on maintaining a good CGPA and understand the placement trends of your college.</br>
+          <br> - Connect with seniors for guidance.</br>
+        <br>5. Second Semester:</br>
+          <br> - Dive into Data Structures:</br>
+           <br>- Learn about the basics of OOP and DSA concepts.</br>
+           <br>- Data structures are crucial for job interviews, especially if you’re aiming for product companies.</br>
+        <br>Remember, consistency, discipline, and dedication are key. Explore opportunities and keep learning! 🚀👩‍💻</br>
+        <br>YouTube Links:</br>
            - "<a href='https://youtu.be/Pt1KGG26RKU?si=2KxjPiMEpI78rtN1' target='_blank'>Video 1</a>"
            - "<a href='https://youtu.be/xuXpfUE1U0k?si=4mSsPfNYRRr4Omom' target='_blank'>Video 2</a>"
 
 
-
   utter_second_year_btech:
-   - text:  " 1.	Data Structures and Algorithms (DSA):
-                o	Dive deeper into DSA. Understand concepts like sorting algorithms, searching techniques, and complexity analysis.
-                o	Implement DSA in C++ or Java.
-                o	Solve problems on platforms like LeetCode, Codeforces, and HackerRank.
-            2.	Database Management Systems (DBMS):
-                o	Learn about relational databases, SQL, and normalization.
-                o	Practice writing SQL queries.
-                o	Explore MySQL or PostgreSQL.
-            3.	Operating Systems (OS):
-                o	Understand process management, memory management, and file systems.
-                o	Dive into Linux and learn basic commands.
-            4.	Web Development:
-                o	Learn HTML, CSS, and JavaScript.
-                o	Explore frameworks like React or Angular.
-                o	Build a simple web application.
-                youtube link https://youtu.be/C2QoDC1rka8?si=_caF6B7RCottfVFo
-                             https://youtu.be/CF1j_wMEbPA?si=tS6b-Ibk04ZSsE2t"
+   - text: |
+         "<br> 1.	Data Structures and Algorithms (DSA):</br>
+                <br>o	Dive deeper into DSA. Understand concepts like sorting algorithms, searching techniques, and complexity analysis.</br>
+                <br>o	Implement DSA in C++ or Java.</br>
+                <br>o	Solve problems on platforms like LeetCode, Codeforces, and HackerRank.</br>
+            <br>2.	Database Management Systems (DBMS):</br>
+                <br>o	Learn about relational databases, SQL, and normalization.</br>
+                <br>o	Practice writing SQL queries.</br>
+                <br>o	Explore MySQL or PostgreSQL.</br>
+            <br>3.	Operating Systems (OS):</br>
+                <br>o	Understand process management, memory management, and file systems.</br>
+                <br>o	Dive into Linux and learn basic commands.</br>
+            <br>4.	Web Development:</br>
+                <br>o	Learn HTML, CSS, and JavaScript.</br>
+                <br>o	Explore frameworks like React or Angular.</br>
+               <br> o	Build a simple web application.</br>
+                <br>youtube links: </br>
+                    <a href ='https://youtu.be/C2QoDC1rka8?si=_caF6B7RCottfVFo' target='_blank'>Video 1</a>
+                     " <a href ='https://youtu.be/CF1j_wMEbPA?si=tS6b-Ibk04ZSsE2t' target='_blank'>Video 2</a>"
 
   utter_third_year_btech:
-   - text: " 1.	Core Subjects:
-                o	Computer Networks: Understand network protocols, topologies, and security.\\
-                o	Database Management Systems (DBMS): Dive into relational databases, SQL, and normalization.\\
-                o	Operating Systems (OS): Learn about processes, memory management, and file systems.\\
-            2.	Electives and Specialization:\\
-                o	Choose electives based on your interests:
-                	Explore courses related to web development, mobile app development, or data science.
-            3.	Projects and Internships:
-                o	Work on substantial projects related to your chosen specialization.
-                o	Seek internships to gain practical exposure.
-                o	Collaborate with peers and industry professionals.
-            Third Year (VIth Semester)
-            1.	Advanced Topics:
-                o	Machine Learning (ML): Explore ML algorithms, supervised/unsupervised learning, and neural networks.
-                o	Artificial Intelligence (AI): Understand natural language processing, computer vision, and AI ethics.
-                o	Cloud Computing: Learn about AWS, Azure, or Google Cloud.
-            2.	Soft Skills and Communication:
-                o	Enhance your communication skills. Practice technical writing and presentations.
-            3.	Career Preparation:
-                o	Update your resume and LinkedIn profile.
-                o	Prepare for technical interviews.
-               o	Research companies and job roles that align with your interests.
-        Remember, this year is about specialization and preparing for your career. Stay curious, keep learning, and enjoy the journey! 🌟
-                 youtube https://youtu.be/ffuK6vt8tdY?si=4S9lYLgK4-rcga1Q
-                          https://youtu.be/r4fi8HrGTEg?si=mJ8NNYUNzbSwrLwj"
+   - text: |
+        " <br>1.	Core Subjects:</br>
+               <br> o	Computer Networks: Understand network protocols, topologies, and security.</br>
+               <br> o	Database Management Systems (DBMS): Dive into relational databases, SQL, and normalization.</br>
+                <br>o	Operating Systems (OS): Learn about processes, memory management, and file systems.</br>
+           <br> 2.	Electives and Specialization:</br>
+               <br> o	Choose electives based on your interests:</br>
+               <br> 	Explore courses related to web development, mobile app development, or data science.</br>
+            <br>3.	Projects and Internships:</br>
+                <br>o	Work on substantial projects related to your chosen specialization.</br>
+                <br>o	Seek internships to gain practical exposure.</br>
+                <br>o	Collaborate with peers and industry professionals.</br>
+            <br>Third Year (VIth Semester)</br>
+            <br>1.	Advanced Topics:</br>
+                <br>o	Machine Learning (ML): Explore ML algorithms, supervised/unsupervised learning, and neural networks.</br>
+                <br>o	Artificial Intelligence (AI): Understand natural language processing, computer vision, and AI ethics.</br>
+                <br>o	Cloud Computing: Learn about AWS, Azure, or Google Cloud.</br>
+            <br>2.	Soft Skills and Communication:</br>
+                <br>o	Enhance your communication skills. Practice technical writing and presentations.</br>
+            <br>3.	Career Preparation:</br>
+                <br>o	Update your resume and LinkedIn profile.</br>
+                <br>o	Prepare for technical interviews.</br>
+               <br>o	Research companies and job roles that align with your interests.</br>
+        <br>Remember, this year is about specialization and preparing for your career. Stay curious, keep learning, and enjoy the journey! 🌟</br>
+               <a href = 'https://youtu.be/ffuK6vt8tdY?si=4S9lYLgK4-rcga1Q' target='_blank'>Video 1</a>
+                <a href ='https://youtu.be/r4fi8HrGTEg?si=mJ8NNYUNzbSwrLwj'target='_blank'>Video 1</a>"
 
   utter_fourth_year_btech:
-   - text: "1.	Specialization and Advanced Topics:
-              o	Industry Exposure: Consider internships or projects related to VLSI in collaboration with companies or research labs.
-              o	Gate Preparation: If you plan to pursue higher studies, start preparing for the Graduate Aptitude Test in Engineering (GATE).
-           2.	Break:
-              o	Utilize the break to enhance your skills. Consider online courses or certifications related to VLSI or any other area of interest.
-          Fourth Year (VIIIth Semester)
-            1.	Final Year Project:
-              o	Work on a substantial project that aligns with your specialization. It could be a research project, a software application, or a hardware prototype.
-            2.	Placement Preparation:
-              o	Resume Building: Update your resume with relevant projects, internships, and skills.
-              o	Interview Practice: Prepare for technical interviews. Brush up on data structures, algorithms, and system design.
-              o	Mock Interviews: Participate in mock interview sessions to gain confidence.
-            3.	Public Profile and Networking:
-              o	LinkedIn: Optimize your LinkedIn profile. Connect with professionals in your field.
-              o	GitHub: Showcase your projects on GitHub. It’s a great way to demonstrate your coding skills.
-              o	Attend Conferences and Webinars: Network with industry experts and learn about the latest trends.
-            4.	Remote Job Opportunities:
-              o	Explore remote job options. Many companies offer remote positions, especially in tech.
-              o	Research companies that allow flexible work arrangements.
-             Remember, your fourth year is a bridge to your professional journey. Stay focused, keep learning, and prepare for a successful transition! 🌟
-              youtube https://youtu.be/VYP0kPrVS5k?si=E-5RPMOP1gc14aEl"
+   - text: | 
+            "<br>1.	Specialization and Advanced Topics:</br>
+             <br> o	Industry Exposure: Consider internships or projects related to VLSI in collaboration with companies or research labs.</br>
+              <br>o	Gate Preparation: If you plan to pursue higher studies, start preparing for the Graduate Aptitude Test in Engineering (GATE).</br>
+            <br>2.	Break:</br>
+             <br> o	Utilize the break to enhance your skills. Consider online courses or certifications related to VLSI or any other area of interest.</br>
+             <br>Fourth Year (VIIIth Semester)</br>
+            <br> 1.Final Year Project:</br>
+             <br> oWork on a substantial project that aligns with your specialization. It could be a research project, a software application, or a hardware prototype.</br>
+             <br>2.Placement Preparation:</br>
+              <br>oResume Building:Update your resume with relevant projects, internships, and skills.</br>
+              <br>oInterview Practice:Prepare for technical interviews. Brush up on data structures, algorithms, and system design.</br>
+              <br>oMock Interviews:Participate in mock interview sessions to gain confidence.</br>
+             <br>3.Public Profile and Networking:</br>
+              <br>oLinkedIn:Optimize your LinkedIn profile. Connect with professionals in your field.</br>
+              <br>oGitHub:Showcase your projects on GitHub. It’s a great way to demonstrate your coding skills.</br>
+              <br>oAttend Conferences and Webinars:Network with industry experts and learn about the latest trends.</br>
+             <br>4.Remote Job Opportunities:</br>
+              <br>oExplore remote job options. Many companies offer remote positions, especially in tech.</br>
+              <br>oResearch companies that allow flexible work arrangements.</br>
+              <br>Remember, your fourth year is a bridge to your professional journey. Stay focused, keep learning, and prepare for a successful transition! 🌟</br>
+              <br>youtube Link:<br>
+                <a href ='https://youtu.be/VYP0kPrVS5k?si=E-5RPMOP1gc14aEl' target='_blank'>Video 1</a>"
 
 
   utter_interview_guidence:
-   - text: "Certainly! Preparing for an interview is crucial for landing your dream job. Here’s a step-by-step guide to help you succeed:
-            1.	Review the Job Description:
-               o	Start by thoroughly understanding the job description. Identify the must-have skills and traits the hiring manager is looking .
-            2.	Research the Company:
-               o	Understand their mission, values, products, and recent achievements.
+   - text: |
+          "<br>Certainly! Preparing for an interview is crucial for landing your dream job. Here’s a step-by-step guide to help you succeed:</br>
+            <br>1.	Review the Job Description:</br>
+              <br> o	Start by thoroughly understanding the job description. Identify the must-have skills and traits the hiring manager is looking .</br>
+            <br>2.	Research the Company:</br>
+               <br>o	Understand their mission, values, products, and recent achievements.</br>
 
-            3.	Practice Common Interview Questions
-            4.	Behavioral Questions:
-               o	Be ready for behavioral questions that assess your soft skills:
-               	“Give an example of a time when you worked in a team.”
-               	“How do you handle stress?”
-               	“Tell me about a time you resolved a conflict.”
-            5.	Technical Questions:
-               o	Brush up on technical concepts related to your field (e.g., data structures, algorithms, databases)
-            6.	Mock Interviews:
-              o	Practice with a friend or mentor and seek feedback.
-            7.	Prepare Questions for the Interviewer:
-               o  Prepare thoughtful questions for the interviewer.
-            8.	Dress Professionally:
-               o	Choose attire slightly more formal than the company's dress code.
-            9.	Plan Your Journey:
-               o Know the interview location and arrive early.
-           10.	Confidence and Positivity:
-               o	Believe in yourself and maintain a positive attitude.
-Remember, preparation is the key to acing your interview. Good luck! 🌟
-                https://youtu.be/e0E6-dRPcJA?si=HJf5XafAmSiFmahF"
+             <br>3.	Practice Common Interview Questions</br>
+           <br> 4.	Behavioral Questions:<br>
+               <br>o	Be ready for behavioral questions that assess your soft skills:</br>
+               <br>	“Give an example of a time when you worked in a team.”</br>
+               <br>	“How do you handle stress?”</br>
+               <br>	“Tell me about a time you resolved a conflict.”</br>
+           <br> 5.	Technical Questions:</br>
+               <br> o	Brush up on technical concepts related to your field (e.g., data structures, algorithms, databases)</br>
+            <br>6.	Mock Interviews:</br>
+              <br>o	Practice with a friend or mentor and seek feedback.</br>
+            <br>7.	Prepare Questions for the Interviewer:</br>
+              <br> o  Prepare thoughtful questions for the interviewer.</br>
+             <br>8.	Dress Professionally:</br>
+               <br>o	Choose attire slightly more formal than the company's dress code.</br>
+            <br>9.	Plan Your Journey:</br>
+               <br>o Know the interview location and arrive early.</br>
+           <br>10.Confidence and Positivity:</br>
+               <br>o	Believe in yourself and maintain a positive attitude.</br>
+             <br>Remember, preparation is the key to acing your interview. Good luck! 🌟</br>
+              <br> Youtube link : </br>"<a href= 'https://youtu.be/e0E6-dRPcJA?si=HJf5XafAmSiFmahF' target='_blank'>Video 1</a>"
 
   utter_softskills_development:
-   - text: "Certainly! Soft skills are essential for every software engineer to thrive in their career. Let’s explore some crucial soft skills that can significantly impact your success:
+   - text: |
+        "<br>Certainly! Soft skills are essential for every software engineer to thrive in their career. Let’s explore some crucial soft skills that can significantly impact your success:</br>
 
-             Communication:
-                Effective communication is vital. As a software engineer, you’ll collaborate with colleagues, stakeholders, and clients. Adapt your communication style based on the audience, whether it’s a technical discussion with a colleague or a client meeting.
-                 Types of communication include:
-                    Interpersonal: Tailoring your language to the person you’re speaking with.
-                    Active listening: Concentrating on what others say and responding appropriately.
-                    Public speaking: Presenting your ideas clearly during meetings or presentations.
-             Emotional Intelligence:
-                Responding well to workplace challenges is crucial. High emotional intelligence allows you to:
-                 Stay calm in unforeseen situations (like budget constraints or changing client demands).
-                 Persevere through professional obstacles.
-              Problem-Solving:
-                Beyond technical problem-solving, soft skills help you find creative solutions.
-                Consider context, needs, and logistics when tackling challenges.
-                Apply problem-solving skills to discussions about ownership, permissions, and project planning.
-            Teamwork and Collaboration:
-                Software development rarely happens in isolation. Collaborate effectively with team members, project managers, and stakeholders.
-                Share ideas, give constructive feedback, and treat colleagues with respect.
-                Foster discussions rather than arguments.
-          Adaptability:
-                The tech industry evolves rapidly. Be open to change, learn new tools, and adapt to shifting requirements.
-                Embrace continuous learning and stay updated with industry trends.
-                Time Management and Organization:
-                Juggling tasks efficiently is essential. Prioritize work, meet deadlines, and manage your time effectively.
-                Organize your projects and ensure smooth progress.
-Remember, mastering these soft skills complements your technical abilities and contributes to your overall success as a software engineer! 🌟"
+            <br> Communication:</br>
+                <br>Effective communication is vital. As a software engineer, you’ll collaborate with colleagues, stakeholders, and clients. Adapt your communication style based on the audience, whether it’s a technical discussion with a colleague or a client meeting.</br>
+                 <br>Types of communication include:</br>
+                    <br>Interpersonal: Tailoring your language to the person you’re speaking with.</br>
+                    <br>Active listening: Concentrating on what others say and responding appropriately.</br>
+                    <br>Public speaking: Presenting your ideas clearly during meetings or presentations.</br>
+             <br>Emotional Intelligence:</br>
+                <br>Responding well to workplace challenges is crucial. High emotional intelligence allows you to:</br>
+                 <br>Stay calm in unforeseen situations (like budget constraints or changing client demands).</br>
+                 <br>Persevere through professional obstacles.</br>
+              <br>Problem-Solving:</br>
+                <br>Beyond technical problem-solving, soft skills help you find creative solutions.</br>
+                <br>Consider context, needs, and logistics when tackling challenges.</br>
+                <br>Apply problem-solving skills to discussions about ownership, permissions, and project planning.</br>
+            <br>Teamwork and Collaboration:</br>
+                <br>Software development rarely happens in isolation. Collaborate effectively with team members, project managers, and stakeholders.</br>
+                <br>Share ideas, give constructive feedback, and treat colleagues with respect.</br>
+               <br> Foster discussions rather than arguments.</br>
+          <br> Adaptability:</br>
+                <br>The tech industry evolves rapidly. Be open to change, learn new tools, and adapt to shifting requirements.</br>
+                <br>Embrace continuous learning and stay updated with industry trends.</br>
+                <br>Time Management and Organization:</br>
+                <br>Juggling tasks efficiently is essential. Prioritize work, meet deadlines, and manage your time effectively.</br>
+                <br>Organize your projects and ensure smooth progress.</br>
+             <br>Remember, mastering these soft skills complements your technical abilities and contributes to your overall success as a software engineer! 🌟</br>"
 
   utter_free_coding_platforms:
-  - text: "Certainly! Here are some excellent platforms for free coding practice:
-           1.	LeetCode:
-             o	LeetCode offers over 3,300 questions for you to practice.
-             o https://leetcode.com/problemset
-           2.	freeCodeCamp:
-             o	A great website for beginners who are just getting into coding.
-             o	Visit their https://www.freecodecamp.org/.
-            3.	CodeChef:
-              o	Check out their https://www.codechef.com/.
-            4.	Codecademy:
-              o	Offers free coding classes in programming languages like Python, Java, JavaScript, Ruby, SQL, C++, HTML, and CSS
-              o	Visit https://www.codecademy.com/.
-            5.	GeeksforGeeks:
-              o	Covers a wide range of topics, from data structures to algorithms.
-              o	Explore GeeksforGeeks from https://www.geeksforgeeks.org/
-Remember, consistent practice is the key to mastering coding skills. Choose a platform that resonates with your learning style and dive in! 🚀👩‍💻"
+  - text: |
+      "<br>Certainly! Here are some excellent platforms for free coding practice:</br>
+            <br>1.	LeetCode:</br>
+             <br>o	LeetCode offers over 3,300 questions for you to practice.</br>
+             o <a href='https://leetcode.com/problemset' 'target='_blank'>leetcode</a>
+           <br>2.	freeCodeCamp:</br>
+            <br> o	A great website for beginners who are just getting into coding.</br>
+            <br> o	Visit their <a href= 'https://www.freecodecamp.org/.' target='_blank'>freecodecamp</a></br>
+            <br>3.	CodeChef:</br>
+             <br> o	Check out their <a href='' https://www.codechef.com/.' target='_blank'>codechef</a> </br>
+            <br>4.	Codecademy:</br>
+              <br>o	Offers free coding classes in programming languages like Python, Java, JavaScript, Ruby, SQL, C++, HTML, and CSS</br>
+              <br>o	Visit <a href= 'https://www.codecademy.com/.' target='_blank'> codeAcademy </a></br>
+            <br>5.	GeeksforGeeks:</br>
+              <br>o	Covers a wide range of topics, from data structures to algorithms.</br>
+              <br>o	Explore GeeksforGeeks from <a href= 'https://www.geeksforgeeks.org/ target='_blank'>Geeksforgeeks </a> </br>
+            <br>Remember, consistent practice is the key to mastering coding skills.Choose a platform that resonates with your learning style and dive in! 🚀👩‍💻</br>"
   utter_DSA_guidence:
-   - text: "Certainly! If you’re a beginner looking to master Data Structures and Algorithms (DSA), here’s a comprehensive roadmap to guide you step by step:
-            1.Learn a Programming Language:
-              Start by choosing a programming language. Common choices include Python, Java, or C++.
-              Understand Time and Space Complexities:
-            Learn about the efficiency of algorithms. Understand Big O notation and analyze how different algorithms perform in terms of time and memory usage.
-           2.Explore Individual Data Structures and Algorithms:
-             Arrays: Basics of array manipulation.
-             Strings: String handling and common operations.
-             Linked Lists: Understand singly and doubly linked lists.
-             Searching Algorithms: Binary search, linear search, etc.
-             Sorting Algorithms: Merge sort, quicksort, bubble sort, etc.
-             Divide and Conquer Algorithms: Concepts like merge and conquer.
-             Stacks: LIFO (Last In, First Out) data structure.
-             Queues: FIFO (First In, First Out) data structure.
-             Tree Data Structure: Binary trees, BSTs, etc.
-             Graph Data Structure: Graph traversal, shortest paths, etc.
-             Greedy Methodology: Greedy algorithms and their applications.
-            Recursion: Understand recursive problem-solving.
-           Backtracking Algorithms: Techniques for solving complex problems.
-          Dynamic Programming: Optimal substructure and overlapping subproblems.
-          3.Practice Regularly:
-            Consistent practice is key. Solve coding problems on platforms like LeetCode, HackerRank, and Codeforces.
-            Implement the learned concepts in real-world scenarios.
-         4.Compete and Improve:
-             Participate in coding contests and challenges.
-             Analyze your performance, learn from mistakes, and refine your skills.
-              https://youtu.be/1dlMv5DMzvc?si=_YM8LtJmBSw9qH0-
-              https://youtu.be/togCZIsKseA?si=WnULQo8E8NPG9GkF "
+   - text: |
+             "<br>Certainly! If you’re a beginner looking to master Data Structures and Algorithms (DSA), here’s a comprehensive roadmap to guide you step by step:</br>
+             <br>1.Learn a Programming Language:</br>
+              <br> by choosing a programming language. Common choices include Python, Java, or C++.</br>
+              <br>Understand Time and Space Complexities:</br>
+             <br>Learn about the efficiency of algorithms. Understand Big O notation and analyze how different algorithms perform in terms of time and memory usage.</br>
+             <br>2.Explore Individual Data Structures and Algorithms-</br>
+             <br>Arrays:Basics of array manipulation.</br>
+             <br>Strings:String handling and common operations.</br>
+             <br>Linked Lists:Understand singly and doubly linked lists.</br>
+             <br>Searching Algorithms:Binary search, linear search, etc.</br>
+             <br>Sorting Algorithms:Merge sort, quicksort, bubble sort, etc.</br>
+             <br>Divide and Conquer Algorithms:Concepts like merge and conquer.</br>
+             <br>Stacks:LIFO (Last In, First Out) data structure.</br>
+             <br>Queues:FIFO (First In, First Out) data structure.</br>
+             <br>Tree Data Structure:Binary trees, BSTs, etc.</br>
+             <br>Graph Data Structure:Graph traversal, shortest paths, etc.</br>
+             <br>Greedy Methodology:Greedy algorithms and their applications.</br>
+             <br>Recursion:Understand recursive problem-solving.</br>
+             <br>Backtracking Algorithms:Techniques for solving complex problems. </br>
+             <br>Dynamic Programming:Optimal substructure and overlapping subproblems.</br>
+             <br>3.Practice Regularly:</br>
+             <br>Consistent practice is key. Solve coding problems on platforms like LeetCode, HackerRank, and Codeforces.</br>
+             <br>Implement the learned concepts in real-world scenarios.</br>
+             <br>4.Compete and Improve:</br>
+             <br> Participate in coding contests and challenges.</br>
+             <br>Analyze your performance, learn from mistakes, and refine your skills.</br>
+              <br>youtube links:</br> <a href = 'https://youtu.be/1dlMv5DMzvc?si=_YM8LtJmBSw9qH0-' target='_blank'>Video 1</a>"
+                             <a href = 'https://youtu.be/togCZIsKseA?si=WnULQo8E8NPG9GkF' target='_blank'>Video 1</a>"
   utter_higher_education:
-  - text: "After completing a Bachelor of Technology (BTech) degree, there are several higher education options available for further specialization and career advancement:
+  - text: |
+     "After completing a Bachelor of Technology (BTech) degree, there are several higher education options available for further specialization and career advancement:
 
             Master of Technology (M.Tech): Pursuing a master's degree in technology allows you to delve deeper into your chosen field of engineering or technology.
             Master of Science (MS): Similar to M.Tech, an MS degree focuses on advanced study and research in a specific area of engineering or technology. 
@@ -367,76 +376,79 @@ Remember, consistent practice is the key to mastering coding skills. Choose a pl
                                                     MBA programs cover topics such as business strategy, finance, marketing, and organizational behavior."
 
   utter_Mtech:
-  - text: " 1.	MTECH Qualifications:
-               •	Bachelor's Degree in Engineering or related field.
-               •	Minimum grade requirement.
-               •	Relevant background in specialized subjects.
-             2.	Exams:
-               •	Graduate Aptitude Test in Engineering (GATE).
-               •	Institute-specific or other national/state-level entrance exams.
-              3.	Other Requirements:
-                •	Statement of Purpose (SOP) outlining academic background and research interests.
-                •	Letters of Recommendation.
-                •	Possible interviews assessing academic knowledge and suitability for the program.
-              4. Best Indian mtech collages: 
-                  .Indian Institutes of Technology (IITs)
-                  .National Institutes of Technology (NITs)
-                  .BITS Pilani (Birla Institute of Technology and Science) 
-                  .IIIT Hyderabad (International Institute of Information Technology, Hyderabad)
-                  .Delhi Technological University (DTU), Delhi
-              5.REQUIREMENTS:
-                .	Bachelor's Degree Marks: M.Tech colleges typically require a minimum percentage or CGPA in your bachelor's degree, often 60% or higher, for competitive admission.
-                .	Entrance Exam Scores: High scores in exams like GATE are crucial for admission to top M.Tech programs.
-                .Other Factors: Your SOP, LOR, research experience, and interview performance can also impact admission decisions.
-                .	Specific Program Requirements: Some programs may prefer candidates with a strong background in specific subjects.
-                .Reservation Quotas: In India, reservation quotas based on factors like caste may influence admission criteria.
-                Resources - https://collegedunia.com/exams/gate/mock-test
-                Study material - https://byjus.com/gate/study-material/"
+  - text: |
+     "<br> 1.	MTECH Qualifications:</br>
+              <br> •	Bachelor's Degree in Engineering or related field.</br>
+               <br>•	Minimum grade requirement.</br>
+               <br>•	Relevant background in specialized subjects.</br>
+             <br>2.	Exams:</br>
+               <br>•	Graduate Aptitude Test in Engineering (GATE).</br>
+               <br>•	Institute-specific or other national/state-level entrance exams.</br>
+              <br>3.	Other Requirements:</br>
+                <br>•	Statement of Purpose (SOP) outlining academic background and research interests.</br>
+                <br>•	Letters of Recommendation.</br>
+                <br>•	Possible interviews assessing academic knowledge and suitability for the program.</br>
+              <br>4. Best Indian mtech collages: </br>
+                  <br>.Indian Institutes of Technology (IITs)</br>
+                  <br>.National Institutes of Technology (NITs)</br>
+                  <br>.BITS Pilani (Birla Institute of Technology and Science) </br>
+                  <br>.IIIT Hyderabad (International Institute of Information Technology, Hyderabad)</br>
+                  <br>.Delhi Technological University (DTU), Delhi</br>
+              <br>5.REQUIREMENTS:</br>
+                <br>.	Bachelor's Degree Marks: M.Tech colleges typically require a minimum percentage or CGPA in your bachelor's degree, often 60% or higher, for competitive admission.</br>
+                <br>.	Entrance Exam Scores: High scores in exams like GATE are crucial for admission to top M.Tech programs.</br>
+                <br>.Other Factors: Your SOP, LOR, research experience, and interview performance can also impact admission decisions.</br>
+                <br>.	Specific Program Requirements: Some programs may prefer candidates with a strong background in specific subjects.</br>
+                <br>.Reservation Quotas: In India, reservation quotas based on factors like caste may influence admission criteria.</br>
+                <br>Resources : </br> <a href = 'https://collegedunia.com/exams/gate/mock-test'</a>
+                <br>Study material :</br> <a href= ' https://byjus.com/gate/study-material/' </a>"
 
   utter_MBA:
-  - text: "1.	Entrance Exam Scores: MBA colleges in India typically require entrance exams like CAT, XAT, GMAT, MAT, CMAT, or SNAP. Cutoff scores vary yearly.
-           2.	Academic Performance: While no set minimum is required, a strong academic background enhances chances. 
-               Performance in bachelor's and sometimes higher secondary exams is considered.
-           3.	Work Experience: Especially for Executive MBA or part-time programs, work experience is preferred, showcasing readiness for advanced studies.
-           4.	Extracurriculars and Leadership: Demonstrated leadership, teamwork, and extracurricular involvement are valued by MBA programs.
-           5.	SOP and Letters of Recommendation: A well-crafted SOP and strong letters of recommendation are crucial, outlining career goals,
-             motivations for pursuing an MBA, and program alignment.
-           6.	Interview Performance: Personal interviews are common. Communication skills, confidence, and clarity of thought influence admission decisions.
-           study material - https://www.mbacrystalball.com/gmat/
-           free practice test - https://www.mbacrystalball.com/blog/free-gmat-practice-test/
-           guide/syllabus /format  - https://www.mbacrystalball.com/gmat-syllabus/ "
+  - text: |
+     "<br>1.	Entrance Exam Scores: MBA colleges in India typically require entrance exams like CAT, XAT, GMAT, MAT, CMAT, or SNAP. Cutoff scores vary yearly.</br>
+           <br>2.	Academic Performance: While no set minimum is required, a strong academic background enhances chances. </br>
+               <br>Performance in bachelor's and sometimes higher secondary exams is considered.</br>
+           <br>3.	Work Experience: Especially for Executive MBA or part-time programs, work experience is preferred, showcasing readiness for advanced studies.</br>
+           <br>4.	Extracurriculars and Leadership: Demonstrated leadership, teamwork, and extracurricular involvement are valued by MBA programs.</br>
+           <br>5.	SOP and Letters of Recommendation: A well-crafted SOP and strong letters of recommendation are crucial, outlining career goals,</br>
+           <br>  motivations for pursuing an MBA, and program alignment.</br>
+           <br>6.	Interview Performance: Personal interviews are common. Communication skills, confidence, and clarity of thought influence admission decisions.</br>
+           study material : <a href= 'https://www.mbacrystalball.com/gmat/'</a>
+           free practice test: <a href= 'https://www.mbacrystalball.com/blog/free-gmat-practice-test/'</a>
+           guide/syllabus /format  <a href='' https://www.mbacrystalball.com/gmat-syllabus/ '</a> "
 
   utter_frontend_guidence:
-  - text: "Frontend Development Roadmap
-                            Basics
-                          1.	HTML:
-                            o	Learn the fundamentals of writing semantic HTML.
-                            o	Understand forms and validation
-                          2.	CSS:
-                            o	Master the basics of creating layouts.
-                            o	Dive into responsive design techniques.
-                        3.	JavaScript:
-                            o	Learn the basics of JavaScript.
-                            o	Understand DOM manipulation.
-                            o	Explore Fetch API and Ajax (XHR).
-                         Version Control Systems (VCS)
-                          •	Familiarize yourself with Git and platforms like GitHub, Bitbucket, and GitLab. 
-                            Web Security Basics
-                             •	Understand concepts like CORS, HTTPS, and Content Security Policy.
-                             •	Be aware of common OWASP security risks.
-                         Package Managers
-                         •	Explore popular package managers like npm, yarn, and pnpm.
-                        CSS Preprocessors
-                           •	Learn about PostCSS and Sass.
-                      Frameworks
-                        Choose one of the following frontend frameworks:
-                         1.	React
-                         2.	Angular
-                         3.	Vue.js
-                         4.	Svelte
-                        5.	Solid JS
-                        youtube links: https://youtu.be/DbRXv5TXMEE?si=6SXJ_9zK3xZM6GDd
-                                      https://youtu.be/9He4UBLyk8Y?si=f1B0Ib8B5mpTbsHL "
+  - text: |
+     "<br>Frontend Development Roadmap</br>
+                           <br> Basics</br>
+                          <br>1.	HTML:</br>
+                            <br>o	Learn the fundamentals of writing semantic HTML.</br>
+                            <br>o	Understand forms and validation</br>
+                          <br>2.	CSS:</br>
+                            <br>o	Master the basics of creating layouts.</br>
+                            <br>o	Dive into responsive design techniques.</br>
+                        <br>3.	JavaScript:</br>
+                            <br>o	Learn the basics of JavaScript.</br>
+                            <br>o	Understand DOM manipulation.</br>
+                            <br>o	Explore Fetch API and Ajax (XHR).</br>
+                         <br>Version Control Systems (VCS)</br>
+                          <br>•	Familiarize yourself with Git and platforms like GitHub, Bitbucket, and GitLab. </br>
+                           <br> Web Security Basics</br>
+                             <br>•	Understand concepts like CORS, HTTPS, and Content Security Policy.</br>
+                            <br> •	Be aware of common OWASP security risks.</br>
+                         <br>Package Managers</br>
+                         <br>•	Explore popular package managers like npm, yarn, and pnpm.</br>
+                        <br>CSS Preprocessors</br>
+                          <br> •	Learn about PostCSS and Sass.</br>
+                      <br>Frameworks</br>
+                       <br> Choose one of the following frontend frameworks:</br>
+                         <br>1.	React</br>
+                         <br>2.	Angular </br>
+                         <br>3.	Vue.js </br>
+                         <br>4.	Svelte</br>
+                        <br>5.	Solid JS</br>
+                        <br>youtube links: </br><a href= 'https://youtu.be/DbRXv5TXMEE?si=6SXJ_9zK3xZM6GDd' target='_blank'>Video 1</a>"
+                                      <a href= 'https://youtu.be/9He4UBLyk8Y?si=f1B0Ib8B5mpTbsHL'  target='_blank'>Video 1</a>"
 
 actions:
   - action_servicebc

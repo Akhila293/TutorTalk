@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,12 +26,26 @@
             max-height: calc(100% - 100px); /* Adjust max height as needed */
             overflow-y: auto;
         }
+       body {
+
+            background-image: url("{{ url_for('static', filename='img_1.png') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Welcome to TutorTalk chatbot</h1>
 
+
+<div class="container">
+    <h1 style="color: white;">Welcome to TutorTalk chatbot</h1>
+
+    <h3 style="color: white;">here are some of the things which you can start asking</h3><br>
+    <h4 style="color: white;">Roadmaps for engineering students under computer science stream</h4><br>
+    <h4 style="color: white;">how to become a competitive coder</h4><br>
+    <h4 style="color: white;">guidance for placement preparation</h4><br>
+    <h4 style="color: white;">Excel related formulas</h4><br>
     <!-- chat widget button-->
     <button id="chat-widget-button" type="button" class="btn btn-primary rounded-circle position-fixed chat-sign-button"
             style="bottom: 20px; right: 20px;"></button>

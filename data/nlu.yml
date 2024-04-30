@@ -224,8 +224,8 @@ nlu:
    - Could you provide a structured plan for BTech graduates interested in pursuing further studies at the MBA?
 - intent: frontend_guidence
   examples: |
-   - can you provide Front-End development roadmap for begineers?
-   - Can you outline the key steps or milestones for becoming proficient in front-end development?
+   - can you provide FrontEnd development roadmap for begineers?
+   - Can you outline the key steps or milestones for becoming proficient in frontend development?
    - What are the essential skills and technologies one should focus on to pursue a career in front-end development?
   
 
